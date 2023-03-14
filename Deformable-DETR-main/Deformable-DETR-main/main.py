@@ -107,16 +107,16 @@ def get_args_parser():
 
     # dataset parameters
     parser.add_argument('--dataset_file', default='coco')
-    parser.add_argument('--coco_path', default='./VOC2COCO', type=str)
+    parser.add_argument('--coco_path', default='/kaggle/input/voc2coco/VOC2COCO', type=str)
     parser.add_argument('--coco_panoptic_path', type=str)
     parser.add_argument('--remove_difficult', action='store_true')
 
-    parser.add_argument('--output_dir', default='output1',
+    parser.add_argument('--output_dir', default='output0',
                         help='path where to save, empty for no saving')
     parser.add_argument('--device', default='cuda',
                         help='device to use for training / testing')
     parser.add_argument('--seed', default=42, type=int)
-    parser.add_argument('--resume', default=r'../de_detr-r50_5.pth', help='resume from checkpoint')
+    parser.add_argument('--resume', default='/kaggle/input/de-detr-r50-5/de_detr-r50_5.pth', help='resume from checkpoint')
     parser.add_argument('--start_epoch', default=0, type=int, metavar='N',
                         help='start epoch')
     parser.add_argument('--eval', action='store_true')
