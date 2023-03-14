@@ -1,0 +1,4 @@
+# ninja log v5
+0	10476	7003295006563156	E:/PycharmProjects/Deformable-DETR-main/Deformable-DETR-main/models/ops/build/temp.win-amd64-cpython-37/Release/PycharmProjects/Deformable-DETR-main/Deformable-DETR-main/models/ops/src/cpu/ms_deform_attn_cpu.obj	3e161b1965e51928
+210	20582	7003295107572924	E:/PycharmProjects/Deformable-DETR-main/Deformable-DETR-main/models/ops/build/temp.win-amd64-cpython-37/Release/PycharmProjects/Deformable-DETR-main/Deformable-DETR-main/models/ops/src/vision.obj	4cdc1166e896231
+242	31108	7003295212424705	E:/PycharmProjects/Deformable-DETR-main/Deformable-DETR-main/models/ops/build/temp.win-amd64-cpython-37/Release/PycharmProjects/Deformable-DETR-main/Deformable-DETR-main/models/ops/src/cuda/ms_deform_attn_cuda.obj	ba4ae75a4ba6cba6
